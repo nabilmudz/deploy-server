@@ -2,6 +2,7 @@ version: '3'
 services:
   web:
     container_name: "website-abil"
-    build: .
+    image: nabilmudzaki/deploy-server:latest
+    # build: "."
     ports:
       - "8081:80"
